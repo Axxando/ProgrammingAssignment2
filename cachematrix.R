@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) { #input x will be matrix
 											# during the first cacheSolve()
 	
 	getsolve <- function() i	# this will return the cached value to cacheSolve() on
-                                # subsequent accesses
+								# subsequent accesses
 	
 	list(set = set, get = get,	# This is a list of the internal functions ('methods') 
 		 setsolve = setsolve,	# so a calling function knows how to access those methods
